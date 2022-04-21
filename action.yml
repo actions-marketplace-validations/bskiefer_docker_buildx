@@ -1,6 +1,6 @@
-name: "Customizable Docker Buildx Build"
+name: "GHCR Docker Buildx Build"
 description: "Build and Publish Multi-Arch Docker Images using GitHub Action"
-author: "zmingxie"
+author: "bskiefer"
 branding:
   color: 'blue'
   icon: 'anchor'
