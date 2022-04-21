@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-echo $2 | docker login ghcr.io --username $1 --password-stdin
+echo $3 | docker login $1 --username $2 --password-stdin
