@@ -53,7 +53,7 @@ async function buildFunction() {
     if (publish) {
         const dockerHubUser = extractInput('dockerHubUser', true);
         const dockerHubPassword = extractInput('dockerHubPassword', true);
-        await executeShellScript('docker_login', dockerHubUser, dockerHubPassword);
+        await executeShellScript('docker_login', 'ghcr.io', dockerHubUser, dockerHubPassword);
         dockerArgs += " --push";
     }
 
